@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Konghao (Shelton) Zhao</title>
+
+    <meta name="author" content="Konghao (Shelton) Zhao">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/icon2.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+
+                <p class="name" style="text-align: center;">
+                  Konghao (Shelton) Zhao
+                </p>
+                <p>
+                I was born in Zhejiang, China and raised in Beijing. I am a senior undergraduate at Wake Forest University, majoring in Computer Science and Mathematics.
+                </p>
+                
+                <p>
+                I conduct research as an undergraduate researcher at the <a href="https://nataliakhuri.com/DataMineLab/"> Wake Forest DataMine Research Group</a> advised by <a href="https://nataliakhuri.com/">Natalia Khuri</a>. 
+                Last summer, I did an internship as a summer scholar at Carnegie Mellon Robotics Institue <a href="https://www.cs.cmu.edu/%7Esoftagents/">Advanced Agent-Robotics Technology Lab</a> advised by <a href="https://www.cs.cmu.edu/~sycara/">Katia Sycara</a>.
+                </p>
+
+                <p>
+                My current research interest is leveraging multi-objective optimization strategies to design and implement high-performance and reliable ML/AI solutions to human health applications. 
+                <b>I am pursuing a PhD degree in Computer Science, and I hope to contribute to the development of more efficient, interpretable, and self-explainable
+                ML/AI solutions with high performance for high-stake applications.</b>
+                </p>
+
+                <p style="text-align:center">
+                  [ <a href="mailto:konghaozh@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV_KonghaoZhao.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/konghaozhao/"> LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=naA_P5EAAAAJ&hl=en"> Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/SheltonZhaoK">Github</a> ]
+                </p>
+
+              </td>
+
+              <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="images/myself.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/myself.jpg" class="hoverZoomLink"></a>
+              </td>
+
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <h2><b>Recent News</b></h2>
+            <ul id="recentNews">
+                <li><b>Jan 2024</b>: I was selected for <b style="color: rgb(204, 29, 29)">Honorable Mention</b> of the 2024 Computing Research Association's (CRA) <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">Outstanding Undergraduate Researcher Award (URA)</a>.
+                <li><b>Dec 2023</b>: Our team Daemon Deacon was placed <b style="color: rgb(204, 29, 29)">4th overall</b> in the <a href="https://sc23.supercomputing.org/students/indyscc/">Student Cluster Competition (IndySCC)</a>, and we were the <b style="color: rgb(204, 29, 29)">top</b> US team.
+            </ul>
+            <h2 id="olderNewsHeader" onclick="toggleOlderNews()" style="cursor: pointer;">
+                <span style="font-size: 18px;">&#9658; Older News</span>
+            </h2>            
+            <ul id="olderNews" style="display:none;">
+              <li>:)))))</li>
+            </ul>
+
+            <p>
+            </p>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <h2><b>Publications</b></h2>(Some works are <span class="highlight" style="background-color: rgba(0, 225, 255, 0.091);">highlighted</span>)
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/CBM.png" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/pdf/2312.00192.pdf">
+                    <papertitle>Benchmarking and Enhancing Disentanglement in Concept-Residual Models</papertitle> </a>
+                  </a>
+                  <br>
+                  Renos Zabounidis, Ini Oguntola, <b>Konghao Zhao</b>, Joseph Campbell, Simon Stepputtis, Katia Sycara
+                  <br>
+                    CVPR 2024
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Under Review</em>
+                  <br>
+                    [
+                    <a href="https://arxiv.org/pdf/2312.00192.pdf">arXiv</a> 
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #2e4053;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Concept bottleneck models (CBMs) are interpretable models that first predict a set of semantically meaningful features, i.e., concepts, from observations that are subsequently used to condition a downstream task.
+                    However, the model's performance strongly depends on the engineered features and can severely suffer from incomplete sets of concepts. 
+                    Prior works have proposed a side channel -- a residual -- that allows for unconstrained information flow to the downstream task, thus improving model performance but simultaneously introducing information leakage, which is undesirable for interpretability. 
+                    This work proposes three novel approaches to mitigate information leakage by disentangling concepts and residuals, investigating the critical balance between model performance and interpretability. 
+                    Through extensive empirical analysis on the CUB, OAI, and CIFAR 100 datasets, we assess the performance of each disentanglement method and provide insights into when they work best. 
+                    Further, we show how each method impacts the ability to intervene over the concepts and their subsequent impact on task performance.
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/scrnabench.png" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/NWhitener/scrnabench">
+                    <papertitle>scrnabench: A Package for Metamorphic Benchmarking of scRNA-seq Data Analysis Methods</papertitle> </a>
+                  </a>
+                  <br>
+                    Nathan P. Whitener, <b>Konghao Zhao</b>, Jason M. Grayson, Natalia Khuri
+                  <br>
+                    Bioinformatics
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Under Review</em>
+                  <br>
+                    [
+                    <a href="https://github.com/NWhitener/scrnabench">Code</a> 
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #2e4053;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Coming soon
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()" style="background-color: rgba(0, 225, 255, 0.091);">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/ML_IMS.jpg" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://dl.acm.org/doi/10.1145/3584371.3613072">
+                    <papertitle>An Ensemble Machine Learning Approach for Benchmarking and Selection of scRNA-seq Integration Methods</papertitle> </a>
+                  </a>
+                  <br>
+                    <b>Konghao Zhao</b>, Sapan Bhandari, Nathan P. Whitener, Jason M. Grayson, Natalia Khuri
+                  <br>
+                    October 2023, ACM-BCB
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Oral Presentation (Top 10% of all accepted papers)</em>
+                  <br>
+                    [
+                    <a href="data/An Ensemble Machine Learning Approach for Benchmarking and Selection of scRNA-seq Integration Methods.pdf">Paper</a> , 
+                    <a href="https://github.com/SheltonZhaoK/ML-IMS">Code</a> 
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #2e4053;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Accurate integration of high-dimensional single-cell sequencing datasets is important for the construction of cell atlases and for the discovery of biomarkers. 
+                    Because the performance of integration methods varies in different scenarios and on different datasets, it is important to provide end users with an automated system for the benchmarking and selection of the best integration among several alternatives. 
+                    Here, we present a system that uses an ensemble of auditors, trained by supervised machine learning, which quantifies residual variability of integrated data and automatically selects the integration with the smallest difference between observed and expected batch effects.
+                    A rigorous and systematic validation was performed using 6 popular integration methods and 52 benchmark datasets. 
+                    Algorithmic and data biases were uncovered and shortcomings of existing validation metrics were examined. 
+                    Our results demonstrate the utility, validity, flexibility and consistency of the proposed approach.
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()" style="background-color: rgba(0, 225, 255, 0.091);">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/MOGA.png" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://www.mdpi.com/2075-4426/13/2/183">
+                    <papertitle>Multi-Objective Genetic Algorithm for Cluster Analysis of Single-Cell Transcriptomes</papertitle> </a>
+                  </a>
+                  <br>
+                    <b>Konghao Zhao</b>, Jason M. Grayson, Natalia Khuri
+                  <br>
+                    January 2023, Journal of Personalized Medicine
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Monthly cover</em>
+                  <br>
+                    [
+                    <a href="data/Multi-Objective Genetic Algorithm for Cluster Analysis of Single-Cell Transcriptomes.pdf">Paper</a> , 
+                    <a href="https://github.com/SheltonZhaoK/Multi-Objective-Genetic-Algorithm-for-Cluster-Analysis">Code</a> 
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #2e4053;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Cells are the basic building blocks of human organisms, and the identification of their types and states in transcriptomic data is an important and challenging task. 
+                    Many of the existing approaches to cell-type prediction are based on clustering methods that optimize only one criterion. 
+                    In this paper, a multi-objective Genetic Algorithm for cluster analysis is proposed, implemented, and systematically validated on 48 experimental and 60 synthetic datasets. 
+                    The results demonstrate that the performance and the accuracy of the proposed algorithm are reproducible, stable, and better than those of single-objective clustering methods. 
+                    Computational run times of multi-objective clustering of large datasets were studied and used in supervised machine learning to accurately predict the execution times of clustering of new single-cell transcriptomes.
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/data_valuation.png" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://dl.acm.org/doi/10.1145/3535508.3545522">
+                    <papertitle>An Evolutionary Approach to Data Valuation</papertitle> </a>
+                  </a>
+                  <br>
+                    Natalia Khuri, Sapan Bhandari, Esteban Murillo Burford, Nathan P. Whitener and <b>Konghao Zhao</b>
+                  <br>
+                    August 2022, ACM-BCB
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Long Paper</em>
+                  <br>
+                    [
+                    <a href="data/An Evolutionary Approach to Data Valuation.pdf">Paper</a>
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #2e4053;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Data valuation in machine learning comprises computational methods for the estimation of the importance of individual training instances. 
+                    It has been used to remove noise, uncover biases, and improve the accuracy of trained models. 
+                    Current data valuation techniques do not scale up for large datasets and do not work for regression tasks, where the objective is to predict a numerical outcome rather than a small number of nominal class labels. 
+                    In this work, an evolutionary approach for qualitative and quantitative data valuation, is presented. 
+                    The proposed approach is tested on regression and classification benchmarks, and on several bioinformatics and health informatics datasets. 
+                    In addition, models trained with most valuable subsets of data are validated on independently acquired tests, demonstrating the generalizability as well as the practical utility of the proposed approach.
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/multiTarget_integration.png" alt="bow" style="border-style: none" width="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://dl.acm.org/doi/10.1145/3535508.3545511">
+                    <papertitle>Multi-target Integration and Annotation of Single-cell RNA-sequencing Data</papertitle> </a>
+                  </a>
+                  <br>
+                    Sapan Bhandari, Nathan P. Whitener, <b>Konghao Zhao</b> and Natalia Khuri
+                  <br>
+                    August 2022, ACM-BCB
+                  <br>
+                    <em style="color: rgb(204, 29, 29)">Short Paper</em>
+                  <br>
+                    [
+                    <a href="data/Multi-target integration and annotation of single-cell RNA-sequencing data.pdf">Paper</a>
+                    ]
+                  <br>
+                <a onclick="toggleDescription(this)" style="cursor: pointer; color: #51532e;">▶ Show Abstract</a>
+                <div id="description" style="display:none;">
+                  <p>
+                    Cells are the building blocks of human tissues and organs, and the distributions of different cell-types change due to environmental or disease conditions and treatments. 
+                    Single-cell RNA sequencing is used to study heterogeneity of cells in biological samples. 
+                    To date, computational approaches aided in the discovery of dominant and rare cell-types and facilitated the construction of cell atlases. 
+                    Integration of new data with the existing reference atlases is an emerging computational problem, and this paper proposes to frame it as a multi-target prediction task, solvable using supervised machine learning. 
+                    We systematically and rigorously test 63 different predictors on synthetic benchmarks with different properties. 
+                    The best performing predictor has high Cohen's Kappa scores and low mean absolute errors in single-batch and multi-batch integration experiments.
+                  </p>
+                </div>
+                </td>
+              </tr>
+
+          </tbody></table>
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <h2><b>Miscellanea</b>
+              <tr>
+                <td style="padding:10px; width:100%; vertical-align:middle">
+                    <h2>Awards</h2>
+                    <ul>
+                        <li>
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="width:80%;">CRA Outstanding Undergraduate Researcher Award Honorable Mention (Computing Research Association)</td>
+                                    <td style="width:20%; text-align:right;">December 20, 2023</td>
+                                </tr>
+                            </table>
+                        </li>
+                        
+                        <li>
+                          <table style="width:100%;">
+                              <tr>
+                                  <td style="width:80%;">RISS 2023 Summer Scholarship (Carnegie Mellon University Robotics Institute)</td>
+                                  <td style="width:20%; text-align:right;">June 1, 2023</td>
+                              </tr>
+                          </table>
+                        </li>
+
+                        <li>
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="width:80%;">Wake Forest Research Fellowship (Wake Forest URECA Center)</td>
+                                    <td style="width:20%; text-align:right;">May 1, 2022</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Source code adapted from <a href="https://github.com/jonbarron/jonbarron_website">John Barron</a> and <a href="https://mertyg.github.io/">Mert Yuksekgonul</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+    <script>
+      function togglePublications() {
+        var table = document.getElementById("publicationTable");
+        var header = document.getElementById("publicationHeader");
+        if (table.style.display === "none") {
+          table.style.display = "table";
+          header.innerHTML = "&#9660; More Publications";
+        } else {
+          table.style.display = "none";
+          header.innerHTML = "&#9658; More Publications";
+        }
+      }
+      </script>
+      <script>
+      function toggleDescription(toggleText) {
+        // Find the corresponding description element by navigating through DOM
+        var description = toggleText.parentElement.parentElement.querySelector('div');
+      
+        if (description.style.display === "none") {
+          description.style.display = "block";
+          toggleText.innerHTML = "▼Hide Description";
+        } else {
+          description.style.display = "none";
+          toggleText.innerHTML = "▶Show Description";
+        }
+      }
+      
+      
+      </script>
+      <script>
+      function toggleOlderNews() {
+          const olderNews = document.getElementById("olderNews");
+          const header = document.getElementById("olderNewsHeader");
+          const span = header.querySelector("span");
+      
+          if (olderNews.style.display === "none") {
+              olderNews.style.display = "block";
+              span.innerHTML = "&#9660; Older News";
+          } else {
+              olderNews.style.display = "none";
+              span.innerHTML = "&#9658; Older News";
+          }
+      }
+      </script>
+    
+  </body>
+</html>
